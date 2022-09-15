@@ -9,38 +9,46 @@
   </head>
 
   <body>
+    <header id="header">
+      <div>
+        <h1 class="logo-text">
+          <img
+            src="/SVG/JR Fitness Logo.png"
+            alt="dumbell logo"
+            id="header-img"
+          />
+          <span class="logo-inital">JR</span>
+          Fitness
+        </h1>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#video" class="nav-link">Feature</a></li>
+          <li><a href="#benefits" class="nav-link">Benefits</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-      <header id="header">
-        <div>
-          <h1 class="logo-text">
-            <img
-              src="/SVG/JR Fitness Logo.png"
-              alt="dumbell logo"
-              id="header-img"
-            />
-            <span class="logo-inital">JR</span>
-            Fitness
-          </h1>
-        </div>
-        <nav id="nav-bar">
-          <ul>
-            <li><a href="#video" class="nav-link">Feature</a></li>
-            <li><a href="#benefits" class="nav-link">Benefits</a></li>
-            <li><a href="#pricing" class="nav-link">Pricing</a></li>
-          </ul>
-        </nav>
-      </header>
-      <p>Achieve your goals and sign up today</p>
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <section id="hero">
+        <p>Achieve your goals and sign up today</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Please enter your e-mail address"
+            required
+          />
+        </form>
         <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Please enter your e-mail address"
-          required
+          type="submit"
+          value="Sign Up"
+          id="submit"
+          class="signup-btn btn"
         />
-        <input type="submit" value="Sign Up" id="submit" class="signup-btn" />
-      </form>
+      </section>
       <video
         width="320"
         height="240"
@@ -70,7 +78,7 @@
             <li>Unlimted use of equipmen±</li>
             <li>Pay per session</li>
           </ul>
-          <button class="card-btn">Get Started</button>
+          <button class="card-btn btn">Get Started</button>
         </div>
         <div class="card">
           <div class="card-header">Monthly No Contract</div>
@@ -80,17 +88,17 @@
             <li>Full use of gym unlimited times per month</li>
             <li>Pay Monthly, No Contract, Cancel Anytime</li>
           </ul>
-          <button class="card-btn">Get Started</button>
+          <button class="card-btn btn">Get Started</button>
         </div>
         <div class="card">
           <div class="card-header">12 Month Contract</div>
           <p class="card-price">£100 Yearly</p>
           <ul>
-            <li>Unlimted use of equipmen±</li>
+            <li>Unlimted use of equipment</li>
             <li>Full use of gym unlimited times per month</li>
             <li>Pay Yearly and save under 12-month contract</li>
           </ul>
-          <button class="card-btn">Get Started</button>
+          <button class="card-btn btn">Get Started</button>
         </div>
       </div>
       <footer id="footer">
