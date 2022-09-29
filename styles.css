@@ -148,9 +148,9 @@ textarea {
 }
 
 .btn:hover {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    border-color: var(--accent-color);
+    color: black;
+    background-color: var(--accent-color);
+    border-color: var(--secondary-color);
     cursor: pointer;
 }
 
