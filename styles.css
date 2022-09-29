@@ -18,6 +18,11 @@
   padding: 0;
 }
 
+::selection {
+    background: var(--accent-color);
+    color: black;
+}
+
 html {
     font-size: 62.5%;
    
@@ -111,6 +116,7 @@ main {
     padding: 0.4rem 2rem;
     width: 30rem;
     outline: none;
+   
 }
 
 #email:hover,
@@ -367,8 +373,11 @@ a:hover {
             align-items: center;
             min-width: 218px;
             
-        }
+        }      
+     }
 
-
-       
+     @media screen and (min-width:3800px) {
+        main {
+         padding: 0rem;  
+        }       
      }
