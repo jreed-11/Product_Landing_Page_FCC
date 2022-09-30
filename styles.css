@@ -237,7 +237,7 @@ a:hover {
     flex-direction: column;
     border: 1px solid var(--secondary-color);
     background-color: var(--primary-color);
-    min-width: 175px;
+    min-width: 190px;
     max-width: 220px ;
     padding-bottom: 1.5rem;
 }
